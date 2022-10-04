@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: rgb(254, 254, 254);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.cabecalho-imagem {
+    height: 150px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Righteous', cursive;
+    color: black font-weight: 400;
+    font-size: 20px;
+}
+
+.conteudo {
+    border-top: 0.4px solid black;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    color: black font-weight: 400;
+    font-size: 64px;
+}
+
+.conteudo-principal-escrito {
+    font-family: 'Righteous', cursive;
+    color: black font-weight:400;
+    font-size: 35px;
+
+}
+
+.botao-ti {
+    font-family: 'Righteous', cursive;
+    color: rgb(255, 255, 255) font-weight: 400;
+    font-size: 24px;
+    background-color: blue;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px rgb(10, 10, 10);
+    border-radius: 20px;
+
+}
+
+.conteudo-imagem-logo {
+    height: 500px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.o-que-somos {
+    border-top: 0.8px solid black;
+    padding-top: 35px;
+    font-family: 'Righteous', cursive;
+    color: rgb(255, 255, 255) font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 16px;
+
+}
+
+.conteudo-secundario-empresa {
+    font-family: 'Righteous', cursive;
+    color: rgb(255, 255, 255) font-weight: 400;
+    font-size: 20px;
+    margin-right: 16px;
+
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.6px solid black;
+
+}
+
+.imagem-rodape {
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.desenvolvido {
+    font-family: 'Righteous', cursive;
+    color: rgb(255, 255, 255) font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.mapa{
+    font-family: 'Righteous', cursive;
+    color: rgb(255, 255, 255) font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 16px;
+
+}
